@@ -1,0 +1,7 @@
+.row {
+    border: #69027d solid;
+    background-color: #00afd8;
+}
+.col, .col-8, .col-4, .col-9, .col-3 {
+    border: #69027d dashed;
+}
