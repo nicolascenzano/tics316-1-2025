@@ -1,0 +1,26 @@
+.row {
+    background-color: #F8F9FA;
+}
+.borde-fijo, .borde-fijo .col-sm-3, .borde-fijo .col-sm-6, .borde-fijo .col-sm-4, .borde-fijo .col-4{
+    border: #08090A solid 1px;
+}
+.contenido{
+    padding: 20px;
+}
+.intro{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.m-20{
+    margin: 20px;
+}
+.boton-especial{
+    margin: 20px;
+    padding: 10px;
+    background-color: #116AAC;
+    color: white;
+    border-radius: 20px;
+}
