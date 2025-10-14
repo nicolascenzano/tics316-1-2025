@@ -1,0 +1,20 @@
+[
+    {
+        "id": "TICS316",
+        "name": "Diseño de Software",
+        "evaluations": 3,
+        "students": 43
+    },
+    {
+        "id": "TICS400",
+        "name": "Arquitectura Cloud",
+        "evaluations": 3,
+        "students": 43
+    },
+    {
+        "id": "TICS413",
+        "name": "Seguridad en TI",
+        "evaluations": 3,
+        "students": 43
+    }
+]

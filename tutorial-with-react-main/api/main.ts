@@ -2,14 +2,17 @@ import { Application, Router } from "@oak/oak";
 import { oakCors } from "@tajpouria/cors";
 import routeStaticFilesFrom from "./util/routeStaticFilesFrom.ts";
 import data from "./data.json" with { type: "json" };
+import coursesData from "./courses-info.json" with { type: "json" };
 
 export const app = new Application();
 const router = new Router();
 
-
-
 router.get("/api/homepage", (context) => {
     context.response.body = data;
+});
+
+router.get("/api/course-detail", (context) => {
+    context.response.body = coursesData;
 });
 
 router.get("/api/dinosaurs/:dinosaur", (context) => {
